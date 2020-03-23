@@ -8,7 +8,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 100%;
+    background-size: cover;
     margin: 3;
 }
 
@@ -40,13 +40,13 @@ li a {
 }
 
 li a:hover {
-    background-color: #555;
-    color: orange;
+Â Â Â  background-color: #555;
+Â Â Â  color: orange;
 }
 
 .active {
-    background-color: #4CAF50;
-    color: white;
+Â Â Â  background-color: #4CAF50;
+Â Â Â  color: white;
 } 
 
 
