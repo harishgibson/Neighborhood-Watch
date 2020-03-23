@@ -9,23 +9,25 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-    margin: 3;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
     font-family: Georgia;
 }
 
 h2 {
     text-align: center;
     font-size: 2vw ;
+	padding-top: 2 ;
 }
 
 h3 {
     text-align: center ;
-    font-size: 2.3vw ;
+    font-size: 3vw ;
+	padding-top: 2.5vw;
 }
 
 #para1 {
@@ -49,17 +51,44 @@ li a:hover {
     color: orange;
 }
 
+#blankspace {
+	height: 28vw;
+	width: 100%;
+	clear: both;
+	background-color: none;
+	
+}
+
+
 .active {
     background-color: #4CAF50;
     color: white;
 } 
 
+.intro {
+	width: 100%;
+	/*background-color: rgba(170,170,170,.5);    makes background light gray transparent*/
+	background-color: black;
+	clear: both;
+	height: min-content ;
+}
+
+#introtext {
+	padding-left: 12vw;
+	padding-right: 12vw;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	font-size: 1.2vw;
+	text-align: center;
+	line-height: 3vw;
+}
 
 .column {
+	align: center;
     float: left;
-    width: 33.33%;
+    width: 20%;
     padding: 5px;
-    height: 500px;
+    height: 40vw;
     color: black;
 }
 
@@ -70,7 +99,7 @@ li a:hover {
 }
 
 .footer {
-    height: 50px;
+    height: 3.75vw;
     background-color: rgba(170,170,170,.5);
     padding: 6px;
     text-align: center;
