@@ -15,7 +15,8 @@ body {
 h1 {
     text-align: center;
     font-size: 4vw;
-    font-family: Georgia;
+    font-family: cinzel;
+	/*previous font family: Georgia, Chonburi*/
 }
 
 h2 {
@@ -30,10 +31,23 @@ h3 {
 	padding-top: 2.5vw;
 }
 
+
+
 #para1 {
-    text-align: center;
+	display: inline-block;
+    text-align: right;
+	font-size: 1.2vw;
+	width: 25%;
+	
 }
 
+#mainlogo {
+    float: both;
+	display: inline;
+	width: 12vw;
+	height: 12vw;
+}
+/* Removed links from old layout
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,13 +64,14 @@ li a:hover {
     background-color: #555;
     color: orange;
 }
-
+*/
 #blankspace {
+	vertical-align: bottom;
+	display: inline-block;
 	height: 28vw;
 	width: 100%;
 	clear: both;
-	background-color: none;
-	
+	background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,0) , black);
 }
 
 
@@ -66,6 +81,8 @@ li a:hover {
 } 
 
 .intro {
+	vertical-align: top;
+	display: inline-block;
 	width: 100%;
 	/*background-color: rgba(170,170,170,.5);    makes background light gray transparent*/
 	background-color: black;
